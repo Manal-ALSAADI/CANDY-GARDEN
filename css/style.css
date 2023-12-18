@@ -1,0 +1,568 @@
+
+@import url('https://fonts.googleapis.com/css?family=Merienda:400,700|Open+Sans+Condensed:300,700&subset=latin-ext');
+
+body {
+	margin: 0;
+	padding: 0; 
+}
+#logo{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+img {
+	max-width: 100%; 
+	vertical-align: bottom; 
+}
+
+h1,h2, h3, h4, h5, h6 {
+	font-family: 'Merienda', cursive; 	
+}
+
+p,span {
+	font-family: 'Open Sans Condensed', sans-serif;	
+}
+
+.animated {
+	-webkit-animation-duration: 1.6s; 
+	-webkit-animation-delay: 2s;
+}
+
+.span a {
+	color: #361b28;
+}
+
+.button {
+	padding: 20px; 
+	border: 5px solid #dfa3c3;
+	text-decoration: none; 
+	list-style: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 25px;
+	color: #fff;
+	border-radius: 1px;
+}
+
+.button:hover {
+	background: #361b28;
+	color: #fff;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 0 auto; 
+	clear: both; 
+}
+
+.wrapper:after {
+  content: ""; 
+  display: table;
+  clear: both;
+}
+
+/* HEADER */
+
+#header {
+	height: 61px;
+	background: #361b28; 
+}
+
+#respmenu {
+	display: none; 
+	font-size: 16px;
+	margin-top: 40px; 
+}
+
+#logo {
+	float: left; 
+	color: #fff;
+}
+
+/* NAVIGATION */
+
+#nav {
+	float: right;
+}
+
+#nav ul {
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul li {
+	float: left; 
+	margin-right: 20px;
+	width: 140px;
+	text-align: center;
+}
+
+#nav ul li a {
+	height: 16px; 
+	padding: 20px;
+	display: block;
+	font-family: 'Open Sans Condensed', sans-serif;
+	color: #fff;
+	text-decoration: none;
+	border-bottom: 5px solid #dfa3c3;
+}
+
+#nav ul li a:link,
+#nav ul li a:visited {
+	-webkit-transition: all .2s ease-in;
+	-moz-transition: all .2s ease-in;
+	-o-transition: all .2s ease-in;
+	-ms-transition: all .2s ease-in;
+	transition: all .2s ease-in;
+}
+
+#nav ul li a:hover {
+	background: #dfa3c3;
+	color: #fff;
+}
+
+/* BANNER */
+
+#banner {
+	background: url(https://5zznly.com/d/6xbYI_interf.jpeg) center center / cover fixed;
+	padding: 120px 0;
+	text-align: center;	/* postavlja elemente na centar */
+	color: #fff;
+}
+
+#banner h1 {
+	font-size: 50px; 
+}
+
+#banner h2 {
+	font-size: 42px;
+}
+
+#banner p {
+	font-size: 25px;
+}
+
+#banner a {
+	color: #fff;
+}
+
+/* PRODUCTS */
+
+#product {
+	background: #fafafa;
+	padding: 120px 0;
+	text-align: center;
+	overflow: hidden; 
+}
+
+#product .product {
+	float: left;
+	width: 270px;
+	height:580PX;
+	top: 0; 
+	padding: 35px 0 15px;
+	margin-top: 50px;
+	margin-right: 40px;
+	
+	background: #fff;
+	border-radius: 1px;
+}
+
+#product .product:nth-of-type(4n) {
+	margin-right: 0;	
+}
+
+#product .product:hover {
+	background:#dfa3c3;
+	
+}
+
+#product h2 {
+	font-size: 55px;
+	color: #030303;
+}
+
+#product p {
+	color: #030303;
+}
+
+/* BANNER TWO */
+
+#banner-two {
+	text-align: center;
+	padding: 120px 0;
+	background: url(https://5zznly.com/d/wyrDW_t1.jpeg) center center / cover; 
+}
+
+#banner-two h2 {
+	font-size: 50px;
+	color: #fff;
+}
+
+/* INFO-SOCIAL */
+
+#info-social {
+	background: #361b28;
+	border-top: 2px solid #dfa3c3;
+	padding: 10px 0;
+	text-align: center;
+}
+
+#info-social span {
+	margin-right: 40px;
+	color: #dfa3c3;
+}
+
+
+#info-social .fa {
+	margin-right: 10px;
+	color: #dfa3c3;
+	padding: 10px;
+	border: 1px solid #dfa3c3;
+	width: 30px;
+	border-radius: 50%;
+}
+
+#info-social .fa:hover {
+	background: #dfa3c3;
+	color: #FFF8DC;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+}
+
+/* ABOUT BAKERY */
+
+#about-CANDYGARDEN {
+	padding: 120px 0;
+	text-align: center;
+	background: #FFFFFF;
+	color: #361b28;
+}
+
+#about-CANDYGARDEN h3 {
+	color: #361b28;
+}
+
+#about-CANDYGARDEN a {
+	color: #361b28;
+	text-decoration: underline;
+}
+
+#about-CANDYGARDEN a:hover {
+	text-decoration: none;
+}
+
+#about-CANDYGARDEN .CANDYGARDEN {
+	float: left;
+	width: 560px;
+	margin-right: 40px;
+}
+
+#about-CANDYGARDEN .CANDYGARDEN-pic {
+	float: right;
+	width: 600px;
+	padding-top: 20px;
+}
+
+#about-CANDYGARDEN.CANDYGARDEN-pic img {
+	border: 5px solid #361b28;
+	border-radius: 1px;
+}
+
+/* FOOTER */
+
+#footer {
+	padding: 150px 0;
+	background: url(https://5zznly.com/d/zZzZr_rmm.jpeg) center center / cover fixed;
+	text-align: center;
+	border-top: 2px solid #361b28;
+	border-bottom: 2px solid #361b28;	
+}
+
+#footer a {
+	color: #361b28;
+}
+
+#footer .button {
+	color: #fff;
+}
+
+#footer a:hover {
+	text-decoration: none; 
+}
+
+iframe {
+	border: 0px;
+	width: 100%;
+	height: 350px;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media screen and (min-width: 1024px) and (max-width: 1260px) { 
+	
+	.wrapper {
+		width: 960px;
+	}
+
+	#product .product {
+		width: 230px;
+		margin-right: 10px;
+	}
+
+	#product .product:nth-of-type(4n) {
+		margin-right: 0;	
+	}
+
+	#about-CANDYGARDEN .CANDYGARDEN {
+		float: left;
+		width: 460px;
+	}
+
+	#about-CANDYGARDEN .CANDYGARDEN-pic {
+		float: right;
+		width: 460px;
+		padding-top: 20px;
+	}
+
+	#about-CANDYGARDEN .CANDYGARDEN-pic img {
+		border: 3px solid #361b28;
+	}
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+	.wrapper {
+		width: 660px;
+	}
+
+	#nav {
+		float: none;
+	}
+  
+  #nav ul li {
+    width: 120px;
+  }
+
+	#product  .product {
+		width: 160px;
+		margin-right: 5px;
+	}
+
+	#product .product:nth-of-type(4n) {
+		margin-right: 0;	
+	}
+
+	#about-CANDYGARDEN .CANDYGARDEN {
+		float: left;
+		width: 310px;
+	}
+
+	#about-CANDYGARDEN .CANDYGARDEN-pic {
+		float: right;
+		width: 310px;
+		height: auto;
+		padding-top: 20px;
+	}
+
+	#about-CANDYGARDEN .CANDYGARDEN-pic img {
+		border: 3px solid #361b28;
+	}
+
+}
+
+
+@media screen and (max-width: 767px) {
+	.wrapper {
+		width: 90%;
+	}
+
+	#respmenu {
+		display: block;
+	}
+	
+	#header {
+		height: auto;
+		text-align: center;	
+	}
+	
+	#logo {
+		float: none;
+		display: block;
+	}
+
+	#nav {
+		width: 100%;
+		display: block;
+	}
+
+	#nav ul {
+		display: none;
+	}
+
+	#nav ul li {
+		float: none;
+		text-align: center;
+		border-bottom: 1px solid #ccc;
+	}
+
+	#product .product {
+		width: auto;
+		float: none;
+		margin-right: 0;
+	}
+
+	#product .product:hover {
+	background: rgba(255,255,255, .3);
+	border-bottom: 2px solid #ccc;
+	-webkit-transition: all .2s ease;
+	-moz-transition: all .2s ease;
+	-o-transition: all .2s ease;
+	-ms-transition: all .2s ease;
+	transition: all .2s ease;
+	}
+
+	#map {
+		width: 30%;
+	}
+
+	#about-CANDYGARDEN .CANDYGARDEN {
+		float: none;
+		width: auto;
+		padding: 5px;
+	}
+
+	#about-CANDYGARDEN .CANDYGARDEN-pic {
+		float: none;
+		width: auto;
+	}
+
+	#about-CANDYGARDEN .CANDYGARDEN-pic img {
+		border: 1px solid #361b28;
+	}
+
+	#info-social span,
+	#info-social span i {
+		float: left;
+		display: block;
+		width: 50%;
+		padding: 20px;
+		font-size: 14px;
+	}
+}
+.t_code {
+	margin-bottom: 20px;
+}
+.header-img {
+	background: url("https://5zznly.com/d/gNbdp_resturant.jpeg") no-repeat right/cover;
+	height: 190px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	position: relative;
+}
+button {
+	font-family: 'Montserrat', sans-serif;
+	color: #474850;
+	cursor: pointer;
+}
+a, a:link, a:hover, a:visited {
+	color: #474850;
+	text-decoration: none;
+}
+/* Phone canvas */
+.phone-canvas {
+	max-width: 375px;
+	margin: 100px auto;
+	background: #fff;
+	padding: 45px;
+	text-align: center;
+	box-shadow: 0 0px 50px 1px rgba(0, 0, 0, .1);
+}
+/* Top Bar */
+.top-bar {
+	overflow: hidden;
+}
+.top-bar__back, .top-bar__search {
+	font-size: 30px;
+}
+.top-bar__back {
+	float: left;
+}
+.top-bar__search {
+	float: right;
+}
+.thumbnail {
+	width: 110px;
+	height: 110px;
+	margin: auto;
+}
+.thumbnail--circle {
+	border-radius: 100px;
+	overflow: hidden;
+}
+.thumbnail--bordered {
+	border: 5px solid #474850;
+}
+.input-number__input {
+/*	opacity: 0;
+	visibility: hidden;
+	display: none;*/
+	margin-bottom: 1em;
+}
+:hover {
+	top: 10px;
+	box-shadow: none;
+}
+
+
+.heading {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.table-count {
+	margin-bottom: 2em;
+}
+.table-count label {
+	font-size: 17px;
+}
+/*.input-number__dec {
+	color: rgba(71, 72, 80, .5);
+}
+.input-number__dec, .input-number__inc {
+	outline: none;
+	border: none;
+	font-size: 25px;
+	font-weight: bold;
+	background: transparent;
+	display: inline-block;
+	vertical-align: middle;
+}
+.input-number__counter {
+	font-family: 'Oswald', sans-serif;
+	font-size: 60px;
+	font-weight: bold;
+	margin: 0 45px;
+	display: inline-block;
+	vertical-align: middle;
+}*/
+
+.date-picker {
+  margin-bottom: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+
+}
